@@ -3,6 +3,9 @@ import hydra
 import torch
 import pytorch_lightning as pl
 import pytorch_lightning.loggers as pl_loggers
+import os
+os.environ["HYDRA_FULL_ERROR"] = "1"
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 
 @hydra.main(config_path="./confs", config_name="mmpeoplesnapshot_fine", version_base="1.1")
 def main(opt):

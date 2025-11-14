@@ -234,4 +234,4 @@ dependencies:
       - yacs==0.1.8
       - yarl==1.9.4
       - zipp==3.18.1
-prefix: /home/menelaos/miniconda3/envs/ihuman
+prefix: /ubc/cs/research/shield/projects/chunjins/anaconda3/envs/ihuman
